@@ -54,7 +54,7 @@ Mô hình dự đoán được triển khai dưới dạng API Flask và triển
 dữ liệu đầu vào cho API: dưới dạng json
 ví dụ:
 {"label":0.0,"f0":3,"f1":0.0,"f2":-15.0,"f3":0.0,"f4":0.0,"f12":0.0,"f13":0.0,"f14":0.0,"f15":0.0,"f16":0.0,"f21":85.0,"f23":0.0,"f24":29.0,"f25":0.0,"f26":0.0,"f34":0.0,"f35":48.0,"f36":0.0,"f37":0.0,"f45":0.0,"f46":0.0,"f47":0.0,"f48":0.0,"f56":500.0,"f57":0.0,"f58":86.0,"f59":0.0,"f60":0.0,"f68":2,"f69":10,"f70":0.0,"f71":61.0,"f72":0.0,"f73":0.0,"f81":245,"PCA_f5":-1284370.1356532155,"PCA_f17":-0.0071385538,"PCA_f27":-34.5720788949,"PCA_f38":-28.1619356953,"PCA_f49":-18.3254612004,"PCA_f61":-349.9820946494,"PCA_f74":-1276390.4333535051}
-command deploy model:
-docker build -t fraud_pred_model .
-docker run -p 5000:5000 fraud_pred_model
+## command deploy model:
+#### > docker build -t fraud_pred_model .
+#### > docker run -p 5000:5000 fraud_pred_model
 
